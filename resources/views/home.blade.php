@@ -15,11 +15,11 @@
             padding: 0;
             background-color: #faf2dd;
             color: #333;
-            box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
+            box-sizing: border-box; 
         }
 
         nav {
-            background-color: #FFAFAF; /* Slightly darker pastel pink */
+            background-color: #FFAFAF; 
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -28,12 +28,12 @@
             width: 100%;
             top: 0;
             left: 0;
-            z-index: 1000; /* Ensure the nav stays on top */
-            box-sizing: border-box; /* Ensure padding is included in width */
+            z-index: 1000; 
+            box-sizing: border-box;
         }
 
         .logo img {
-            height: 40px; /* Adjust this value to control the size of the logo */
+            height: 40px; 
             width: auto;
             display: block;
         }
@@ -50,7 +50,7 @@
         }
 
         .nav-links a:hover {
-            background-color: #fce4e4; /* Light pastel hover color */
+            background-color: #fce4e4; 
             color: #333;
             border-radius: 5px;
         }
@@ -61,13 +61,13 @@
             background-image: url('{{ asset('images/banner.jpg') }}');
             background-size: cover;
             background-position: center;
-            margin-top: 50px; /* Adjust margin-top to account for the fixed nav */
+            margin-top: 50px; 
         }
 
         .content {
             padding: 30px 20px;
             text-align: center;
-            margin-top: 0; /* Ensure content starts directly below the banner */
+            margin-top: 0; 
             margin-bottom: 80px;
         }
 
@@ -108,9 +108,9 @@
             <img src="{{ asset('images/logo.jpg') }}" alt="My Logo">
         </a>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="content.html">Cat Breeds</a>
+            <a href="http://127.0.0.1:8000">Home</a>
+            <a href="http://127.0.0.1:8000/about">About Me</a>
+            <a href="http://127.0.0.1:8000/content">Cat Breeds</a>
         </div>
     </nav>
 
