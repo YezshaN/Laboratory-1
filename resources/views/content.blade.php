@@ -65,8 +65,8 @@
         }
 
         .breed-image img {
-            width: 240px; /* Reduced width */
-            height: 300px; /* Reduced height */
+            width: 240px; 
+            height: 300px;
             object-fit: cover;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -74,7 +74,7 @@
 
         .breed-info {
             margin-left: 20px;
-            flex: 1; /* Allow text area to take up the remaining space */
+            flex: 1;
         }
 
         .breed-info h2 {
@@ -104,13 +104,12 @@
             <img src="{{ asset('images/logo.jpg') }}" alt="My Logo">
         </a>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="content.html">Cat Breeds</a>
+            <a href="http://127.0.0.1:8000/">Home</a>
+            <a href="http://127.0.0.1:8000/about">About Me</a>
+            <a href="http://127.0.0.1:8000/content">Cat Breeds</a>
         </div>
     </nav>
 
-    <!-- Example of a breed section -->
     <section class="breed-section">
         <div class="breed-image">
             <img src="{{ asset('images/Maine Coon.jpg') }}" alt="Maine Coon">
@@ -208,18 +207,18 @@
 
     <section class="breed-section">
         <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
+            <img src="{{ asset('images/British Shorthair.jpg') }}" alt="British Shorthair">
         </div>
         <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
+            <h2>British Shorthair</h2>
+            <p><strong>Origination:</strong> The British Shorthair originated in the United Kingdom and is one of the oldest cat breeds in the world.</p>
+            <p><strong>Personality:</strong> Calm, independent, and easygoing. British Shorthairs are affectionate but not overly demanding of attention.</p>
+            <p><strong>Health and Wellness:</strong> Generally healthy, but prone to obesity; regular exercise and a balanced diet are important.</p>
             <p><strong>Unique Traits & Fun Facts:</strong>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Known for their round face and dense, plush coat.</li>
+                    <li>The breed inspired the Cheshire Cat in “Alice in Wonderland.”</li>
+                    <li>They are slow to mature, reaching full physical development at around three years old.</li>
                 </ul>
             </p>
         </div>
@@ -227,18 +226,18 @@
 
     <section class="breed-section">
         <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
+            <img src="{{ asset('images/Russian Blue.jpg') }}" alt="Russian Blue">
         </div>
         <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
+            <h2>Russian Blue</h2>
+            <p><strong>Origination:</strong> The Russian Blue cat originated in Russia and is known for its stunning blue-gray coat.</p>
+            <p><strong>Personality:</strong> reserved, and loyal. Russian Blues are affectionate with their owners but can be shy around strangers.</p>
+            <p><strong>Health and Wellness:</strong> Generally healthy, but prone to bladder stones; a proper diet is crucial.</p>
             <p><strong>Unique Traits & Fun Facts:</strong>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Known for their dense, plush double coat.</li>
+                    <li>Their eyes are a striking green color.</li>
+                    <li>Russian Blues are known for their strong bond with their owners.</li>
                 </ul>
             </p>
         </div>
@@ -246,18 +245,18 @@
 
     <section class="breed-section">
         <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
+            <img src="{{ asset('images/Sphynx.jpg') }}" alt="Sphynx">
         </div>
         <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
+            <h2>Sphynx</h2>
+            <p><strong>Origination:</strong> The Sphynx cat originated in Canada in the 1960s, known for its hairless appearance.</p>
+            <p><strong>Personality:</strong> Friendly, outgoing, and affectionate. Sphynx cats are social and love to be the center of attention.</p>
+            <p><strong>Health and Wellness:</strong> Prone to skin conditions and needs regular bathing; also susceptible to heart issues.</p>
             <p><strong>Unique Traits & Fun Facts:</strong>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>They have a hairless, wrinkled body with large ears.</li>
+                    <li>Despite their lack of fur, they are warm to the touch</li>
+                    <li>Sphynx cats are known to be quite energetic and playful.</li>
                 </ul>
             </p>
         </div>
@@ -265,18 +264,18 @@
 
     <section class="breed-section">
         <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
+            <img src="{{ asset('images/Scottish Fold.jpg') }}" alt="Scottish Fold">
         </div>
         <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
+            <h2>Scottish Fold</h2>
+            <p><strong>Origination:</strong> The Scottish Fold originated in Scotland, characterized by its unique folded ears.</p>
+            <p><strong>Personality:</strong> Gentle, affectionate, and easygoing. Scottish Folds enjoy being around people and are very adaptable.</p>
+            <p><strong>Health and Wellness:</strong> Prone to joint issues and arthritis due to their folded ears; regular vet check-ups are necessary.</p>
             <p><strong>Unique Traits & Fun Facts:</strong>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Their folded ears give them an owl-like appearance.</li>
+                    <li>They are known to sit in a “Buddha” position.</li>
+                    <li>Scottish Folds have a round face and large, expressive eyes.</li>
                 </ul>
             </p>
         </div>
@@ -284,62 +283,22 @@
 
     <section class="breed-section">
         <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
+            <img src="{{ asset('images/Abyssinian.jpg') }}" alt="Abyssinian">
         </div>
         <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
+            <h2>Abyssinian</h2>
+            <p><strong>Origination:</strong> The Abyssinian cat is one of the oldest known breeds, with origins traced back to ancient Egypt.</p>
+            <p><strong>Personality:</strong> Active, playful, and curious. Abyssinians are known for their high energy levels and love of climbing.</p>
+            <p><strong>Health and Wellness:</strong> Prone to dental issues and kidney problems; regular dental care and hydration are important.</p>
             <p><strong>Unique Traits & Fun Facts:</strong>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>They have a ticked coat, giving them a wild appearance.</li>
+                    <li>Abyssinians are known for their intelligence and curiosity.</li>
+                    <li>They form strong bonds with their owners and enjoy interactive play.</li>
                 </ul>
             </p>
         </div>
     </section>
-
-    <section class="breed-section">
-        <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
-        </div>
-        <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
-            <p><strong>Unique Traits & Fun Facts:</strong>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </p>
-        </div>
-    </section>
-
-    <section class="breed-section">
-        <div class="breed-image">
-            <img src="{{ asset('images/.jpg') }}" alt="">
-        </div>
-        <div class="breed-info">
-            <h2></h2>
-            <p><strong>Origination:</strong> </p>
-            <p><strong>Personality:</strong> </p>
-            <p><strong>Health and Wellness:</strong> </p>
-            <p><strong>Unique Traits & Fun Facts:</strong>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </p>
-        </div>
-    </section>
-
-    <!-- Repeat the breed section for each breed -->
 
     <footer>
         <p>&copy; 2024 Purrfect Breeds. All rights reserved.</p>
