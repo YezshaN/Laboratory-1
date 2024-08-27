@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Breeds</title>
+    <meta name="description" content="Explore Purrfect Breeds, your go-to resource for everything about cats. Discover different information on various cat breeds, their origins, and what makes each breed unique.">
+    <meta name="keywords" content="cats, cat breeds, feline information, Purrfect Breeds, cat facts, cat lovers">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf2dd;
+            color: #333;
+            box-sizing: border-box; /* Ensure padding and borders are included in total width and height */
+        }
+
+        nav {
+            background-color: #FFAFAF; /* Slightly darker pastel pink */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure the nav stays on top */
+            box-sizing: border-box; /* Ensure padding is included in width */
+        }
+
+        .logo img {
+            height: 40px; /* Adjust this value to control the size of the logo */
+            width: auto;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            background-color: #fce4e4; /* Light pastel hover color */
+            color: #333;
+            border-radius: 5px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 350px;
+            background-image: url('{{ asset('images/banner.jpg') }}');
+            background-size: cover;
+            background-position: center;
+            margin-top: 50px; /* Adjust margin-top to account for the fixed nav */
+        }
+
+        .content {
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 0; /* Ensure content starts directly below the banner */
+            margin-bottom: 80px;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        footer {
+            background-color: #FFAFAF;
+            color: #333;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="{{ asset('images/logo.jpg') }}" alt="My Logo">
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="content.html">Cat Breeds</a>
+        </div>
+    </nav>
+
+    <div class="banner"></div>
+
+    <div class="content">
+        <h2>Welcome to Purrfect Breeds!</h2>
+        <p>Dive into the fascinating world of cat breeds! Discover the origins, unique traits, and charming quirks of each breed. Whether you're a proud cat owner or a passionate cat lover, you're in for a delightful journey filled with intriguing insights and adorable feline facts. Get ready to explore and be amazed!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Purrfect Breeds. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
