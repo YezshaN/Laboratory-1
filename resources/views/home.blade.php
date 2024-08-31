@@ -108,9 +108,9 @@
             <img src="{{ asset('images/logo.jpg') }}" alt="My Logo">
         </a>
         <div class="nav-links">
-            <a href="http://127.0.0.1:8000">Home</a>
-            <a href="http://127.0.0.1:8000/about">About Me</a>
+            <a href="http://127.0.0.1:8000/">Home</a>
             <a href="http://127.0.0.1:8000/content">Cat Breeds</a>
+            <a href="http://127.0.0.1:8000/about">About Me</a>
         </div>
     </nav>
 
